@@ -1,0 +1,59 @@
+body {
+    background-color: #F3F5FC;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 40px
+}
+
+.container_input {
+    background-color: #F3F5FC;
+    border: none;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    margin-top: 50px;
+    margin-left: 240px;
+
+}
+input::placeholder{
+    color: #0A3871;
+}
+
+.advertencia{
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    color: #495057;
+    margin-left: 240px;
+    
+}
+
+.botones{
+    margin-top: 320px;
+    margin-left: 240px;
+}
+
+.encriptar {
+    border-radius: 24px;
+    background: #0A3871;
+    width: 328px;
+    padding: 24px;
+    border: 1px solid #0A3871;
+    color: #FFFFFF;
+    font-size: 16px;
+    
+
+
+}
+
+.desencriptar {
+    border-radius: 24px;
+    background: #D8DFE8;
+    width: 328px;
+    padding: 24px;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    font-size: 16px;
+
+}
