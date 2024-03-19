@@ -1,5 +1,5 @@
 body {
-    background-color: blueviolet; /*Color Temporal*/
+    background-color: #F3F5FC;
 }
 
 .tododentro {
@@ -13,27 +13,40 @@ body {
 
 .cuadroinserto{
     margin-top: 80px;
-    margin-left: 240px;
+    margin-left: 200px;
+    text-align: left;
+    
 }
 
 .container_input {
-    background-color: #F3F5FC;
+    background-color: transparent;
     border: none;
     font-size: 32px;
     font-family: 'Inter', sans-serif;
     color: #0A3871;
     padding: 5px 0px;
-    width: 577px;
+    text-align: left;
+    display: block;
+    margin: 10px;
+    resize: none;
+    outline: none;
+    width: 680px;
+    
 }
-input::placeholder{
+
+textarea::placeholder{
     color: #0A3871;
 }
 
 .advertencia{
-    font-size: 12px;
+    font-size: 18px;
     font-family: 'Inter', sans-serif;
     color: #495057; 
+    margin-bottom: 20px;
+}
 
+.botones{
+    margin-top: 20px
 }
 
 .encriptar {
@@ -44,6 +57,7 @@ input::placeholder{
     border: 1px solid #0A3871;
     color: #FFFFFF;
     font-size: 16px;  
+    margin-right: 40px;
 }
 
 .desencriptar {
@@ -54,6 +68,7 @@ input::placeholder{
     border: 1px solid #0A3871;
     color: #0A3871;
     font-size: 16px;
+
 }
 
 .cuadrotraducido{
@@ -63,4 +78,43 @@ input::placeholder{
     height: 944px;
     position: absolute;
     transform: translate(1000px, -48px);
+    display: grid;
+    place-content: center;
 }
+
+.monolupa{
+    display: inline-block;
+    text-align: center;
+    margin: 35px;
+}
+.textos{
+    font-family: 'Inter', sans-serif;
+    color: #343A40;
+    text-align: center;
+}
+
+.textogrande{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 1% 30px;
+
+}
+
+.textochico{
+    font-size: 18px;
+    padding: 2% 30px;
+}
+
+footer{
+    margin: 100px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #343A40;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*.copyright{
+    color:#0A3871;
+}*/
